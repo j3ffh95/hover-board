@@ -69,3 +69,7 @@ for (let i = 0; i < SQUARES_NR; i++) {
 }
 
 function setColorToEl(element) {}
+
+function getRandomColor() {
+  return colors[Math.floor(Math.random() * colors.length)];
+}
