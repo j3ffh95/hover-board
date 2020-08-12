@@ -7,3 +7,14 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
+.container {
+  display: flex;
+}
+
+.square {
+  background-color: #1d1d1d;
+  margin: 2px;
+  height: 16px;
+  width: 16px;
+}
