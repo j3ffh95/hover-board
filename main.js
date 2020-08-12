@@ -68,7 +68,10 @@ for (let i = 0; i < SQUARES_NR; i++) {
   container.appendChild(square);
 }
 
-function setColorToEl(element) {}
+function setColorToEl(element) {
+  const color = getRandomColor();
+  element.style.background = color;
+}
 
 function getRandomColor() {
   return colors[Math.floor(Math.random() * colors.length)];
