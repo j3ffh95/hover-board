@@ -20,4 +20,9 @@ body {
   margin: 2px;
   height: 16px;
   width: 16px;
+  transition: 2s ease;
+}
+
+.square:hover {
+  transition-duration: 0s;
 }
