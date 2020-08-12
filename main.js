@@ -74,6 +74,11 @@ function setColorToEl(element) {
   element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`;
 }
 
+function removeColorFromEl() {
+  element.style.background = "#1d1d1d";
+  element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`;
+}
+
 function getRandomColor() {
   return colors[Math.floor(Math.random() * colors.length)];
 }
